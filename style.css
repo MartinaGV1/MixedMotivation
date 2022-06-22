@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Magilio';
+    src: url(../Fuentes/MagilioRegular-Yzv2O.ttf), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Wagon';
+    src: url(../Fuentes/Wagon-Bold.otf), format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+#page-name {
+    font-family: 'Magilio', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    color: whitesmoke;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Wagon', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #EE2C49, #EC7121, #F3C225);
+    width: 100%;
+    height: 1000px;
+}
+
+#quote-button {
+    font-family: 'Magilio', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+}
